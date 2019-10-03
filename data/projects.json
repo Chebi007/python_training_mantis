@@ -1,47 +1,12 @@
 [
   {
     "py/object": "model.project.Project",
-    "description": "desription:r6JqEaxpmJaV",
+    "description": "desription:L8",
+    "enabled": null,
     "id": null,
     "inherit_global": false,
-    "name": "name:YEx",
-    "status": "obsolete",
-    "view_status": "public"
-  },
-  {
-    "py/object": "model.project.Project",
-    "description": "desription:9zLaAvBY5RingQOfg1yj",
-    "id": null,
-    "inherit_global": false,
-    "name": "name:AbGQJdb57Oxt",
-    "status": "development",
-    "view_status": "private"
-  },
-  {
-    "py/object": "model.project.Project",
-    "description": "desription:Nt81PG56QbXhv",
-    "id": null,
-    "inherit_global": true,
-    "name": "name:Aig",
+    "name": "name:QcD4MxbFxcJrocttlLm",
     "status": "stable",
-    "view_status": "public"
-  },
-  {
-    "py/object": "model.project.Project",
-    "description": "desription:e2SZOlkzhNDNcB1j",
-    "id": null,
-    "inherit_global": true,
-    "name": "name:Uy1NONcZqWtZ5PkgI0G",
-    "status": "obsolete",
     "view_status": "private"
-  },
-  {
-    "py/object": "model.project.Project",
-    "description": "desription:u2AYfllGaSvQFluHCs8G2LP7NEj",
-    "id": null,
-    "inherit_global": true,
-    "name": "name:LgPE7rD6MxALRVtyg",
-    "status": "stable",
-    "view_status": "public"
   }
 ]

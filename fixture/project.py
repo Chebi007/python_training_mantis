@@ -37,7 +37,7 @@ class ProjectHelper:
         wd = self.app.wd
         self.change_field_value("name", project.name)
         self.select_option("status", project.status)
-        self.checkbox("inherit_global", project.inherit_global)
+        self.checkbox("enabled", project.enabled)
         self.select_option("view_state", project.view_status)
         self.change_field_value("description", project.description)
 
@@ -75,12 +75,12 @@ class ProjectHelper:
                 name = cells[0].text
                 status = cells[1].text
                 if cells[2].text == 'X':
-                    inherit_global = True
+                    enabled = True
                 else:
-                    inherit_global = False
+                    enabled = False
                 view_status = cells[3].text
                 description = cells[4].text
-                self.project_cache.append(Project(id=id,name=name, status=status, inherit_global=inherit_global,
+                self.project_cache.append(Project(id=id,name=name, status=status, enabled=enabled,
                                                   view_status=view_status, description=description))
         return list(self.project_cache)
 
