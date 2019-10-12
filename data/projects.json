@@ -1,12 +1,12 @@
 [
   {
     "py/object": "model.project.Project",
-    "description": "desription:L8",
+    "description": "desription:M6E4vVUm",
     "enabled": null,
     "id": null,
-    "inherit_global": false,
-    "name": "name:QcD4MxbFxcJrocttlLm",
+    "inherit_global": true,
+    "name": "name:",
     "status": "stable",
-    "view_status": "private"
+    "view_status": "public"
   }
 ]
